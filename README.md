@@ -23,7 +23,9 @@ yarn install
 yarn dev
 ```
 
-Navigate to `http://localhost:3000/` and open the console.
+Navigate to `http://localhost:3000/` and open the console.  
+
+https://github.com/user-attachments/assets/344cf74a-ca6d-4c68-9e40-579dac66bd9b
 
 ## Expected behavior
 
