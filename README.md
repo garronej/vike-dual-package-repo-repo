@@ -12,7 +12,9 @@ Concretely what is happening is that when a module imports `@emotion/react` and 
 is not the same distribution of `@emotion/react` that is used.  
 
 `import { css } from "@emotion/react";` condition used: `exports["."].development.default` (emotion-react.development.cjs.js)  
-`import { css } from "a-module-that-uses-emotion/i-export-css-from-emotion-react"` condition used `exports["."].default` (emotion-react.cjs.js)
+`import { css } from "a-module-that-uses-emotion/i-export-css-from-emotion-react"` condition used `exports["."].default` (emotion-react.cjs.js)  
+
+The relevant code is in [`pages/index/+Page.tsx`](./pages/index/+Page.tsx).  
 
 ## Step to reproduce
 
